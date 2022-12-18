@@ -1,0 +1,23 @@
+name: PruebaPlugin
+version: '${project.version}'
+main: pruebaplugin.pruebaplugin.PruebaPlugin
+api-version: 1.19
+commands:
+  volar:
+    description: Habilita la posibilida de volar
+    usage: /volar
+    aliases: v
+    permission: volar
+    permission-message: No tienes permisos para volar.
+  menu:
+    description: Habilita el menu.
+    usage: /menu
+    aliases: m
+    permission: menu
+    permission-message: No tienes permisos para usar el comando menu.
+  proteccion:
+    description: informacion de proteccion.
+    usage: /proteccion
+    aliases: p
+    permission: prote
+    permission-message: No tienes permisos.

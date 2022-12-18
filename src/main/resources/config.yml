@@ -1,0 +1,5 @@
+kit:
+  - DIAMOND_SWORD
+  - DIAMOND_CHESTPLATE
+mensaje:
+  mensajesalida: "Hola como estas"
